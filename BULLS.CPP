@@ -6,6 +6,7 @@
 #include<dos.h>
 #include<string.h>
 #include<math.h>
+
  void graph();
  void startgraph();
  void initmouse();
@@ -218,10 +219,7 @@ bk: startgraph();
       exit(1); /* terminate with an error code */
      }
 
-
-
   } //end of startgraph()..
-
 
  // mouse functions
     void initmouse()
